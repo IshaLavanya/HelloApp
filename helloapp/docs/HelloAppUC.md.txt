@@ -1,5 +1,7 @@
-# HelloApp Use Cases
+## UC3: Display Hello with Default Value
 
-## UC1: Display Hello World
+- Accepts optional command-line argument
 
-Prints Hello World in console
+- Uses "World" if no input is given 
+
+- Prevents runtime errors
