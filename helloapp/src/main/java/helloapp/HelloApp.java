@@ -3,16 +3,11 @@ package helloapp;
 public class HelloApp {
 
     public static void main(String[] args) {
-
-        String names;
-
-        // If no arguments → default
-        if (args.length == 0) {
-            names = "World";
-        } else {
-            // Join all names with comma
-            names = String.join(", ", args);
+        String name = "World";
+        if (args.length > 0) {
+            name = args[0];
         }
+        System.out.println("Hello, " + name + "!");
 
         System.out.println("Hello, " + names + "!");
     }
