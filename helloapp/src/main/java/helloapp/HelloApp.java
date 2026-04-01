@@ -24,6 +24,7 @@ public class HelloApp {
 
             names = nameBuilder.toString();
         }
+        System.out.println("Hello, " + name + "!");
 
         System.out.println("Hello, " + names + "!");
     }
